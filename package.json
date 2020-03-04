@@ -1,0 +1,17 @@
+{
+  "name": "hello-mdx-go",
+  "version": "1.0.0",
+  "author": "Juliane Nagao <julianens@gmail.com>",
+  "license": "MIT",
+  "main": "pages/index.mdx",
+  "scripts": {
+    "dev": "mdx-go pages -p 3000",
+    "build": "mdx-go build pages"
+  },
+  "dependencies": {
+    "mdx-go": "^2.0.0-32",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "rebass": "^4.0.7"
+  }
+}
